@@ -1,0 +1,11 @@
+@document.meta
+title: Title
+description: Description
+author: sicro
+categories: docs
+created: today
+version: 0.1
+@end
+
+* Section
+  Text.

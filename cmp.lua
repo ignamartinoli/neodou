@@ -1,0 +1,15 @@
+
+					-- ['<CR>'] = cmp.mapping.confirm {
+					-- 	behavior = cmp.ConfirmBehavior.Replace,
+					-- },
+					-- ['<S-Tab>'] = cmp.mapping(function (fallback)
+					-- 	if cmp.visible() then cmp.select_prev_item()
+					-- 	elseif snp.jumpable(-1) then snp.jump(-1)
+					-- 	else fallback() end
+					-- end, { 'i', 's' }),
+					-- ['<Tab>'] = cmp.mapping(function (fallback)
+					-- 	if cmp.visible() then cmp.select_next_item()
+					-- 	elseif snp.expand_or_jumpable() then snp.expand_or_jump()
+					-- 	elseif has_words_before() then cmp.complete()
+					-- 	else fallback() end
+					-- end, { 'i', 's' })
